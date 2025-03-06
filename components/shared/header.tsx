@@ -3,6 +3,7 @@ import { Container } from './container';
 import { cn } from '@/lib/utils';
 import Image from 'next/image';
 import { Button } from '../ui';
+import { ShoppingCart, User } from 'lucide-react';
 
 
 interface Props {
@@ -30,10 +31,11 @@ export const Header: React.FC<Props> = ({ className }) => {
                 </div>
                 <div className='flex items-center gap-4'>
                     <Button className='flex items-center' variant='outline'>
-                    Войти
+                        <User />
+                        Войти
                     </Button>
                     <Button>
-                       
+                        <ShoppingCart />
                     </Button>
                 </div>
             </Container>

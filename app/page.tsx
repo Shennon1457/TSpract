@@ -1,6 +1,14 @@
+import { Container, Title } from "@/components/shared";
+
+
+
 
 export default function Home() {
   return (
-   <h1>Главная</h1>
+   <>
+   <Container>
+      <Title text="Все пиццы" />
+   </Container>
+   </>
   );
 }

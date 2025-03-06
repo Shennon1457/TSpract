@@ -12,7 +12,7 @@ const nunito = Nunito({
   });
 
 export const metadata: Metadata = {
-  title: "Next proekt | Главная"
+  title: "Next proekt|Main"
 };
 
 export default function RootLayout({
