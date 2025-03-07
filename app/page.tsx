@@ -1,4 +1,5 @@
 import { Container, Title } from "@/components/shared";
+import { TopBar } from "@/components/shared/top-bar";
 
 
 
@@ -9,6 +10,7 @@ export default function Home() {
    <Container>
       <Title text="Все пиццы" />
    </Container>
+   <TopBar/>
    </>
   );
 }
