@@ -11,6 +11,14 @@ export default function Home() {
       <Title text="Все пиццы" />
    </Container>
    <TopBar/>
+   <Container>
+    <div className="left">
+
+    </div>
+    <div className="right">
+
+    </div>
+   </Container>
    </>
   );
 }
